@@ -4,8 +4,8 @@
 #This sequence of code would do just that using solve() 
 #function and caching methods implemented in R
 
-#makeCacheMatrix is a list that sets the value of a matrix, gets the value of matrix,
-#sets the inverse of matrix and gets the inverse of matrix.
+#makeCacheMatrix is a list(set,get,setmatrix,getmatrix) that sets the cached value of a matrix, gets the cached value of matrix,
+#sets the cached inverse of matrix and gets the cached inverse of matrix respectively.
 
 makeCacheMatrix <- function(x = matrix()) {
   
